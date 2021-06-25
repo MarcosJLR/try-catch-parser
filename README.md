@@ -7,15 +7,11 @@ Compile with `stack build` and run with `stack run`.
 Input is received through standard input.
 
 Tokens are:
-```
-try
-catch
-finally
-;
-instr_<type>
-```
-
-where `type` is a non-empty alphaNumeric string.
+* `try`
+* `catch`
+* `finally`
+* `;`
+* `instr_<type>:`  where `type` is a non-empty alphaNumeric string.
 
 All tokens in input must be separated by whitespaces.
 
