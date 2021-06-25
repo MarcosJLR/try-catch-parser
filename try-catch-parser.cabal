@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Parser
+      Tokens
   other-modules:
       Paths_try_catch_parser
   hs-source-dirs:
